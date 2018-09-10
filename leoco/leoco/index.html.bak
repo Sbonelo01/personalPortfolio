@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leoco</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <u><img class="leocologo" src="images/leoco-logo3.png"></u>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="callout">
+            <center class="upcoming-projects"><h3><strong><em>leoco</em></strong></h3></center>
+          <div class="row">
+            <div class="large-4 medium-4 columns">
+              <p><img src="images/leoco1.png"></a><br /><strong><em>-space</em></strong>.</p>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <p><img src="images/sixtale.png"></a><br /><strong><em></em></strong>.</p>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <p><img src="images/leoco3.png"><strong><em></em></strong>.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-8 medium-8 columns">
+        <h5><strong><em>My Work</em></strong></h5>
+        <p>
+          <em>"Being a rapper has neve been much more interesting in south africa, but ineresting does't mean "easy". That's why I seek to grab every opportunity and emerge as the best to have ever done it"<br/> -Leoco</em>
+          </p>
+        <!-- Grid Example -->
+
+          <h5 class="upcoming-projects"><strong><em><u>Stream My Music</u></em></strong></h5>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="primary callout">
+              <p><strong>Leo'co  WAVY</strong><br/> </p>
+				<audio controls> 
+					<source src="music/WAVY.mp3" type="audio/mpeg"></source>
+				</audio>
+					<p>or stream it on Soundcloud</p>
+				<audio controls><source src="https://api.soundcloud.com/leoco97/wavy-prodby-mac-1" type="audio/ogg"/>
+				</audio>
+            </div>
+          </div>
+        </div>
+  
+
+        <hr />
+
+        <h5 class="upcoming-projects"><strong><em>For bookings:</em></strong></h5>
+        <form mailto:"sbonelomkhize15@gmail.com">
+          <div class="row">
+            <div class="large-12 columns">
+              <label>Name</label>
+              <input type="text" placeholder="name" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 medium-4 columns">
+              <label>Surname</label>
+              <input type="text" placeholder="surname" />
+            </div>
+            <div class="large-4 medium-4 columns">
+              <label>Cellphone number</label>
+              <input type="number" placeholder="cell" />
+            </div>
+            <div class="large-4 medium-4 columns">
+              <div class="row collapse">
+                <label>Your email</label>
+                <div class="input-group">
+                  <input type="email" placeholder="email" class="input-group-field" />
+                  <span class="input-group-label">.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>Message</label>
+              <textarea placeholder="message"></textarea>
+              <p><a href="mailto:" class="button">send</a><br/>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="large-4 medium-4 columns">
+        <h5><strong><em>socialise with your boy:</em></strong></h5>
+        <a href="https://www.facebook.com/leoco" class="button">facebook</a>
+        <a href="http://www.twitter.com/leoco97_" class="button">twitter</a>
+        <a href="https://www.whatsapp.com number"+27610299122"&message=hello, leoco" class="success button">whatsapp</a>
+        <a href="https://www.soundcloud.com/leoco97" class="alert button">soundcloud</a>
+        <a href="https://www.intagram.com/leoco97" class="secondary button">instagram</a></p>
+        
+        <div class="callout">
+          <img class="footer-image" src="images/leoco-footer.png" alt="footer image" width="130" height="105"> <p><em class="footer-image-tagline">A young rapper from Durban</em></p>
+          <h5 class="thokoza">Thokoza Leon Fakazi</h5>
+          <p>Hand crafted by: </p>
+          <a href="mailto:sbonelomkhize15@gmail.com" class="small button">Sbonelo Mkhize</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="large-12 columns">
+          <p>leoco &copy; 2017</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

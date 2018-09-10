@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="main.css">
+		<link rel="shortcut icon" href="sbonelo-favicon.png">
+		<title>work</title>
+	</head>
+		<body>
+			<header>
+				<div class="navigation">
+					<nav>
+						<ul>
+							<li><a href="index.html">home<m>.</m></a></li>
+							<li><a href="about.html">about<m>.</m></a></li>
+							<li><a href="contact.html">contact<m>.</m></a></li>
+						<ul>
+					</nav>
+				</div>	
+			</header>
+			<div class="displayed">
+				<img src="sbonelo.png">
+			</div>	
+			<div class="work-text"><p>Some of the work that I fidget with during my spare time, A bit of photo editing, abit of logo design and abit of drawing</p></div>
+			<div class="row-1">
+				<div class="col-1"><img src="minimal.png" class="img-circle" width="304" height="236"></div>
+				<div class="col-2"><img src="hands.png" class="img-circle" width="304" height="236"></div>
+			</div>	
+						<div class="row-2">
+				<div class="col-1"><img src="Myhand.png" class="img-circle" width="304" height="236"></div>
+				<div class="col-2"><img src="drawing.png" class="img-circle" width="304" height="236"></div>
+			</div>	
+						<div class="row-3">
+				<div class="col-1"><img src="colors.png" class="img-circle" width="304" height="236"></div>
+				<div class="col-2"><img src="univ.png" class="img-circle" width="304" height="236"></div>
+			</div>	
+			<div class="work-footer">
+			<footer>
+				<p>made with love by <strong><m>Sbonelo Mkhize</m></strong> &copy; 2017</p>
+			</footer>
+			</div>
+		</body>	
+</html>

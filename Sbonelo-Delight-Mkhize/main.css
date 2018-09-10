@@ -1,0 +1,127 @@
+
+body {
+	margin: none;
+	font-family: courier; 
+	background-image: url("chill.png");
+	background-size: 100% 100% 100% 100%;
+	position: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header {
+	width: 100px;
+	text-align: center;
+	display: inline;
+	color: white;
+	position: fixed;
+	width: 100%;
+}
+
+nav {
+	display: inline;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	color: white;
+}
+
+li:hover {
+	font-size: 24px;
+	color: blue;
+}
+
+m {
+	color: rgb(0,150,202);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0,150,202);
+}
+
+img {
+	display: inline;
+}
+
+.bio {
+	color: black;
+	background: white;
+	opacity: 0.4;
+}
+
+.work-text {
+	text-align: center;
+}
+
+.work-dispalay {
+	opacity: 0.4;
+}
+
+.sbonelo-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-footer {
+	position: relative;
+	left: 467px;
+	bottom: -530px;
+}
+
+.contact-footer {
+	position: relative;
+	left: 467px;
+	bottom: -450px;
+}
+
+.index-footer {
+	position: relative;
+	left: 467px;
+	bottom: -530px;
+}
+
+.mail-link {
+	position:relative;
+	left: 700px;
+	bottom: -210px;
+}
+
+.fb-link {
+	position: relative;
+	left: 600px;
+	bottom: -260px;
+}
+
+.row-1 {
+	left: -150px;
+	bottom: 
+}
+
+.row-2 {
+	position: relative;
+	left: 467px;
+	top: -477px;
+}
+
+.row-3 {
+	position: relative;
+	left: 967px;
+	top: -950px;
+}
+
+footer {
+	padding: 145% -65% 0% 35%;
+	text-align: center;
+	color: white;
+}
