@@ -1,10 +1,10 @@
-<!doctype html>
+<!doctype HTML>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="main.css">
-		<link rel="shortcut icon" href="sbonelo-favicon.png">
+		<link rel="shortcut icon" href="images/sbonelo-favicon.png">
 		<title>home</title>
 	</head>
 		<body>
@@ -12,20 +12,81 @@
 				<div class="navigation">
 					<nav>
 						<ul>
-							<li><a href="about.html">about<m>.</m></a></li>
-							<li><a href="contact.html">contact<m>.</m></a></li>
-							<li><a href="work.html">work<m>.</m></a></li>
+							<button id="myBtn1" onclick="openModal()" class="blued">about<span class="blued">.</span></button>
+							<button id="myBtn2" onclick="openModal()" class="blued">contact<span class="blued">.</span></button>
+							<button id="myBtn3" onclick="openModal()" class="blued">work<span class="blued">.</span></button>
+							<span class="logo"><img src="images/sbonelo.png"><span>
 						<ul>
 					</nav>
 				</div>	
+
+				<!-- The about modal -->
+
+				<div id="myModal" class="modal">
+					<div class="modal-header">
+						<span class="close">x</span>
+							<h2>about me</h2>
+								</div>
+									<div class="modal-body">
+										<p>SOME TEXT</p>
+											<p>SOME MORE TEXT..</p>
+									</div>
+									<div class="modal-footer">
+										<p>&copy;2019</p>
+									</div>
+							</div>
+					</div>
+				</div>
+
+				<!-- The contact modal -->
+	
+				<div id="myModal" class="modal">
+					<div class="modal-header">
+						<span class="close">x</span>
+							<h2>contact</h2>
+								</div>
+									<div class="modal-body">
+										<p>SOME TEXT</p>
+										<p>SOME MORE TEXT..</p>
+									</div>
+									<div class="modal-footer">
+										<p>&copy;2019</p>
+									</div>
+							</div>
+					</div>
+				</div>
+
+				<!-- The work modal -->
+
+				<div id="myModal" class="modal">
+					<div class="modal-header">
+						<span classs="close">x</span>
+							<h2>contact</h2>
+								</div>
+									<div class="modal-body">
+										<p>SOME TEXT</p>
+										<p>SOME MORE TEXT..</p>
+									</div>
+									<div class="modal-footer">
+										<p>&copy;2019</p>
+									</div>
+							</div>
+					</div>
+				</div>
+				
 			</header>
 			<div class="sbonelo-pic">
-				<img src="sbonelo.png" alt="main image" align="center"/>
+				<img src="images/sboneloumuzi1.png" alt="main image" align="center"/>
 			</div>	
+			<div class="some-text">
+				<p>Hello, My Name is Sbonelo. I'm an aspiring Web Developer</p>
+			</div>
 			<div class="index-footer">
 				<footer>
-					<p>made with love by <strong><m>Sbonelo Mkhize</m></strong> &copy; 2017</p>
+					<p><strong>made by <span class="blued">Sbonelo Mkhize</span> &copy; 2019</strong></p>
 				</footer>
 			</div>
+
+			<script type="text/javascript" src="main.js"></script>
 		</body>	
 </html>
